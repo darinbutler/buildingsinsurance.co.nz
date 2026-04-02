@@ -89,12 +89,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12">
             {/* Quote Form - Left Column (3/5) */}
             <div className="lg:col-span-3">
-              <div className="bg-white rounded-2xl shadow-md p-8 sm:p-10">
-                <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
-                  Quick Quote Form
-                </h2>
-                <QuoteForm />
-              </div>
+              <QuoteForm />
             </div>
 
             {/* What Happens Next - Right Column (2/5) */}
