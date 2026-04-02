@@ -1,0 +1,16 @@
+# robots.txt for buildingsinsurance.co.nz
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://buildingsinsurance.co.nz/sitemap.xml
+
+# Block admin and thank-you pages
+Disallow: /admin/
+Disallow: /thank-you/
+
+# Block query parameter variants
+Disallow: /*?*
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

@@ -7,6 +7,14 @@ import { Check, AlertCircle, DollarSign, Home, Shield, Phone } from 'lucide-reac
 export const metadata: Metadata = {
   title: 'Landlord Buildings Insurance NZ | Rental Property Protection',
   description: 'Complete buildings insurance for NZ landlords. Tenant damage, loss of rent, meth contamination, and tax deductibility explained.',
+  openGraph: {
+    title: 'Landlord Buildings Insurance NZ | Rental Property Protection',
+    description: 'Complete buildings insurance for NZ landlords. Tenant damage, loss of rent, meth contamination, and tax deductibility explained.',
+    url: 'https://buildingsinsurance.co.nz/sectors/landlords/',
+  },
+  alternates: {
+    canonical: 'https://buildingsinsurance.co.nz/sectors/landlords/',
+  },
 };
 
 const whyLandlords = [
@@ -525,6 +533,23 @@ export default function LandlordsPage() {
           </div>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          name: 'Landlord Buildings Insurance NZ',
+          description: 'Complete buildings insurance for NZ landlords. Tenant damage, loss of rent, meth contamination, and tax deductibility explained.',
+          provider: {
+            '@type': 'Organization',
+            name: 'BuildingsInsurance.co.nz',
+            url: 'https://buildingsinsurance.co.nz'
+          },
+          areaServed: { '@type': 'Country', name: 'New Zealand' },
+          serviceType: 'Insurance Comparison',
+          url: 'https://buildingsinsurance.co.nz/sectors/landlords/'
+        }) }}
+      />
     </main>
   );
 }

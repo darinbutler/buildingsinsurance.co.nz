@@ -7,6 +7,16 @@ import { Check, AlertCircle, Home, Shield, Phone } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Residential Buildings Insurance NZ | Home Owner Protection',
   description: 'Comprehensive buildings insurance for NZ residential homes. EQC integration, weathertightness protection, and earthquake cover explained.',
+  keywords: ['residential buildings insurance', 'home insurance NZ', 'buildings insurance', 'EQC', 'house insurance', 'home protection'],
+  alternates: {
+    canonical: 'https://buildingsinsurance.co.nz/sectors/residential/',
+  },
+  openGraph: {
+    title: 'Residential Buildings Insurance NZ | Home Owner Protection',
+    description: 'Comprehensive buildings insurance for NZ residential homes. EQC integration, weathertightness protection, and earthquake cover explained.',
+    url: 'https://buildingsinsurance.co.nz/sectors/residential/',
+    type: 'website',
+  },
 };
 
 const whyCovered = [
@@ -358,6 +368,24 @@ export default function ResidentialPage() {
           </div>
         </div>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          name: 'Residential Buildings Insurance NZ',
+          description: 'Comprehensive buildings insurance for NZ residential homes. EQC integration, weathertightness protection, and earthquake cover.',
+          provider: {
+            '@type': 'Organization',
+            name: 'BuildingsInsurance.co.nz',
+            url: 'https://buildingsinsurance.co.nz'
+          },
+          areaServed: { '@type': 'Country', name: 'New Zealand' },
+          serviceType: 'Insurance Comparison',
+          url: 'https://buildingsinsurance.co.nz/sectors/residential/'
+        }) }}
+      />
     </main>
   );
 }

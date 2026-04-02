@@ -8,6 +8,12 @@ import { Star, Check, X, ArrowRight, Shield, Phone, FileText } from 'lucide-reac
 export const metadata: Metadata = {
   title: 'Compare NZ Buildings Insurance Providers | Side-by-Side',
   description: 'Compare top NZ buildings insurance providers side-by-side. ICNZ-registered, no broker fees, updated April 2026.',
+  alternates: { canonical: 'https://buildingsinsurance.co.nz/compare/' },
+  openGraph: {
+    title: 'Compare NZ Buildings Insurance Providers | Side-by-Side',
+    description: 'Compare top NZ buildings insurance providers side-by-side. AMI, State, Tower, AA, Vero, NZI rated and compared.',
+    url: 'https://buildingsinsurance.co.nz/compare/',
+  },
 };
 
 const StarRating = ({ rating }: { rating: number }) => {
@@ -505,6 +511,27 @@ export default function ComparePage() {
           </div>
         </section>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          name: 'Compare NZ Buildings Insurance Providers',
+          description: 'Side-by-side comparison of top NZ buildings insurance providers including AMI, State, Tower, AA Insurance, Vero, and NZI.',
+          url: 'https://buildingsinsurance.co.nz/compare/',
+          mainEntity: {
+            '@type': 'ItemList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'AMI Insurance', url: 'https://www.ami.co.nz' },
+              { '@type': 'ListItem', position: 2, name: 'State Insurance', url: 'https://www.state.co.nz' },
+              { '@type': 'ListItem', position: 3, name: 'Tower Insurance', url: 'https://www.tower.co.nz' },
+              { '@type': 'ListItem', position: 4, name: 'AA Insurance', url: 'https://www.aainsurance.co.nz' },
+              { '@type': 'ListItem', position: 5, name: 'Vero Insurance', url: 'https://www.vero.co.nz' },
+              { '@type': 'ListItem', position: 6, name: 'NZI Insurance', url: 'https://www.nzi.co.nz' },
+            ],
+          },
+        }) }}
+      />
     </main>
   );
 }

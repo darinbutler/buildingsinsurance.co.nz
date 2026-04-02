@@ -6,9 +6,11 @@ import { blogPosts } from '@/data/blog-posts';
 export const metadata: Metadata = {
   title: 'Buildings Insurance Blog NZ | Guides & Insights',
   description: 'Expert guides and insights on buildings insurance in New Zealand. Learn about coverage, costs, and protection for your property.',
+  alternates: { canonical: 'https://buildingsinsurance.co.nz/blog/' },
   openGraph: {
     title: 'Buildings Insurance Blog NZ | Guides & Insights',
     description: 'Expert guides and insights on buildings insurance in New Zealand.',
+    url: 'https://buildingsinsurance.co.nz/blog/',
     images: ['https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&h=630&fit=crop'],
   },
 };

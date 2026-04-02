@@ -7,6 +7,16 @@ import { AlertTriangle, Check, Building2, Zap, DollarSign, Phone } from 'lucide-
 export const metadata: Metadata = {
   title: 'Commercial Buildings Insurance NZ | Business Protection',
   description: 'Comprehensive buildings insurance for NZ commercial properties. NOT covered by EQC. Protect your business investment now.',
+  keywords: 'commercial buildings insurance NZ, business property insurance, commercial property protection, EQC coverage, NZ commercial insurance',
+  openGraph: {
+    title: 'Commercial Buildings Insurance NZ | Business Protection',
+    description: 'Comprehensive buildings insurance for NZ commercial properties. NOT covered by EQC. Protect your business investment now.',
+    url: 'https://buildingsinsurance.co.nz/sectors/commercial/',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://buildingsinsurance.co.nz/sectors/commercial/',
+  },
 };
 
 const whyCommercial = [
@@ -391,6 +401,23 @@ export default function CommercialPage() {
           </div>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          name: 'Commercial Buildings Insurance NZ',
+          description: 'Comprehensive buildings insurance for NZ commercial properties. NOT covered by EQC. Protect your business investment.',
+          provider: {
+            '@type': 'Organization',
+            name: 'BuildingsInsurance.co.nz',
+            url: 'https://buildingsinsurance.co.nz'
+          },
+          areaServed: { '@type': 'Country', name: 'New Zealand' },
+          serviceType: 'Insurance Comparison',
+          url: 'https://buildingsinsurance.co.nz/sectors/commercial/'
+        }) }}
+      />
     </main>
   );
 }

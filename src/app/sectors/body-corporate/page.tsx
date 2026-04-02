@@ -7,6 +7,14 @@ import { AlertCircle, Check, Building2, FileText, Users, Shield, Phone } from 'l
 export const metadata: Metadata = {
   title: 'Body Corporate Insurance NZ | Unit Titles Act Protection',
   description: 'Mandatory body corporate buildings insurance for unit title properties. Shared structure coverage, full replacement, and public liability explained.',
+  openGraph: {
+    title: 'Body Corporate Insurance NZ | Unit Titles Act Protection',
+    description: 'Mandatory body corporate buildings insurance for unit title properties. Shared structure coverage, full replacement, and public liability explained.',
+    url: 'https://buildingsinsurance.co.nz/sectors/body-corporate/',
+  },
+  alternates: {
+    canonical: 'https://buildingsinsurance.co.nz/sectors/body-corporate/',
+  },
 };
 
 const whyBodyCorporate = [
@@ -583,6 +591,24 @@ export default function BodyCorporatePage() {
           </div>
         </div>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          name: 'Body Corporate Insurance NZ',
+          description: 'Mandatory body corporate buildings insurance for unit title properties. Shared structure coverage, full replacement, and public liability.',
+          provider: {
+            '@type': 'Organization',
+            name: 'BuildingsInsurance.co.nz',
+            url: 'https://buildingsinsurance.co.nz'
+          },
+          areaServed: { '@type': 'Country', name: 'New Zealand' },
+          serviceType: 'Insurance Comparison',
+          url: 'https://buildingsinsurance.co.nz/sectors/body-corporate/'
+        }) }}
+      />
     </main>
   );
 }
