@@ -1,0 +1,32 @@
+[
+  {
+    "provider": "AMI",
+    "product": "Standard Home",
+    "priceRange": "$800–$1,500/yr",
+    "features": ["Full replacement", "EQC integrated", "Natural disaster", "Temporary accommodation"]
+  },
+  {
+    "provider": "Tower",
+    "product": "House Insurance",
+    "priceRange": "$750–$1,400/yr",
+    "features": ["Sum insured", "Earthquake cover", "Gradual damage optional", "Online management"]
+  },
+  {
+    "provider": "State",
+    "product": "Home Cover",
+    "priceRange": "$850–$1,600/yr",
+    "features": ["Full replacement", "EQC integrated", "Legal costs", "Retaining walls"]
+  },
+  {
+    "provider": "AA Insurance",
+    "product": "Home Insurance",
+    "priceRange": "$700–$1,300/yr",
+    "features": ["AA member discounts", "Sum insured", "Natural disaster", "Online claims"]
+  },
+  {
+    "provider": "Vero",
+    "product": "Residential Building",
+    "priceRange": "$900–$1,800/yr",
+    "features": ["Full replacement", "High-value homes", "Gradual damage", "Body corporate options"]
+  }
+]
