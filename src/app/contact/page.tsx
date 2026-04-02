@@ -64,20 +64,20 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <section className="relative h-80 sm:h-96 bg-gradient-to-br from-emerald-600 to-emerald-700 overflow-hidden">
+      <section className="relative h-80 sm:h-96 bg-slate-900 overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1920&h=900&fit=crop"
           alt="Co-working space for insurance consultations"
           fill
-          className="object-cover opacity-30"
+          className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/90 to-emerald-700/90" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-slate-900/40" />
         <div className="relative h-full flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-white text-center mb-4">
             Get Your Free Buildings Insurance Quote
           </h1>
-          <p className="text-lg sm:text-xl text-emerald-50 text-center max-w-2xl">
+          <p className="text-lg sm:text-xl text-slate-200 text-center max-w-2xl">
             Let our NZ experts help you find the perfect coverage at the best rates
           </p>
         </div>

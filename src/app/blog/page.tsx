@@ -25,20 +25,20 @@ export default function BlogPage() {
   return (
     <main className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <section className="relative h-96 bg-gradient-to-br from-emerald-600 to-emerald-700 overflow-hidden">
+      <section className="relative h-96 bg-slate-900 overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1920&h=900&fit=crop"
-          alt="Handshake representing buildings insurance partnership"
+          src="https://images.unsplash.com/photo-1434082033009-b81d41d32e1c?w=1920&h=900&fit=crop"
+          alt="New Zealand suburban homes and neighbourhood"
           fill
-          className="object-cover opacity-30"
+          className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/90 to-emerald-700/90" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-slate-900/40" />
         <div className="relative h-full flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white text-center mb-4">
             Buildings Insurance Blog
           </h1>
-          <p className="text-lg sm:text-xl text-emerald-50 text-center max-w-2xl">
+          <p className="text-lg sm:text-xl text-slate-200 text-center max-w-2xl">
             Expert guides, insights, and everything you need to know about protecting your New Zealand property
           </p>
         </div>

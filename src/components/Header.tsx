@@ -19,7 +19,6 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { label: 'Home', href: '/' },
     { label: 'Coverage', href: '/coverage' },
     { label: 'Compare', href: '/compare' },
     { label: 'Blog', href: '/blog' },
@@ -54,16 +53,6 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
-            {navLinks.slice(0, 1).map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-slate-700 hover:text-emerald-600 transition-colors font-medium"
-              >
-                {link.label}
-              </Link>
-            ))}
-
             {/* Sectors Dropdown */}
             <div className="relative group">
               <button className="text-slate-700 hover:text-emerald-600 transition-colors font-medium flex items-center gap-2">
@@ -95,7 +84,7 @@ export default function Header() {
               </div>
             </div>
 
-            {navLinks.slice(1).map((link) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -140,17 +129,6 @@ export default function Header() {
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <div className="lg:hidden border-t border-slate-200 py-4 space-y-3">
-            {navLinks.slice(0, 1).map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="block text-slate-700 hover:text-emerald-600 transition-colors font-medium px-2"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {link.label}
-              </Link>
-            ))}
-
             {/* Mobile Sectors Accordion */}
             <div>
               <button
@@ -191,7 +169,7 @@ export default function Header() {
               )}
             </div>
 
-            {navLinks.slice(1).map((link) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
