@@ -157,12 +157,12 @@ export default function HomePage() {
               property.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="rounded-lg bg-emerald-600 px-8 py-3 font-semibold text-white transition-all hover:bg-emerald-700 hover:shadow-lg">
+              <Link href="#quote-form" className="rounded-lg bg-emerald-600 px-8 py-3 font-semibold text-white transition-all hover:bg-emerald-700 hover:shadow-lg">
                 Get a Free Quote
-              </button>
-              <button className="rounded-lg border-2 border-white px-8 py-3 font-semibold text-white transition-all hover:bg-white/10 hover:shadow-lg">
+              </Link>
+              <Link href="/compare" className="rounded-lg border-2 border-white px-8 py-3 font-semibold text-white transition-all hover:bg-white/10 hover:shadow-lg">
                 Compare Insurers
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -348,7 +348,7 @@ export default function HomePage() {
       </section>
 
       {/* Quote Form Section */}
-      <section className="bg-white px-6 py-20 sm:px-12 lg:px-20">
+      <section id="quote-form" className="bg-white px-6 py-20 sm:px-12 lg:px-20 scroll-mt-20">
         <div className="mx-auto max-w-4xl">
           <div className="mb-12 text-center">
             <h2 className="mb-2 text-4xl font-bold text-slate-900">
