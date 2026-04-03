@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/sectors/layout,_N_T_/sectors/body-corporate/layout,_N_T_/sectors/body-corporate/page,_N_T_/sectors/body-corporate"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/sectors/body-corporate/__PAGE__",
+    "/sectors/body-corporate",
+    "/sectors",
+    "/_index",
+    "/_head"
+  ]
+}
