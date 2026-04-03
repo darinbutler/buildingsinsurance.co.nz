@@ -20,6 +20,19 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
     'w-full px-4 py-3 bg-slate-50 border-2 border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 focus:bg-white transition-all duration-200 text-slate-900 placeholder:text-slate-400';
   const labelClass = 'block text-sm font-semibold text-slate-700 mb-1.5';
 
+  const trustBadges = (
+    <div className="flex flex-wrap items-center gap-3 text-xs font-semibold text-slate-600 mb-4">
+      <span className="flex items-center gap-1">
+        <svg className="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+        ICNZ-Registered
+      </span>
+      <span className="flex items-center gap-1">
+        <svg className="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+        No Broker Fees
+      </span>
+    </div>
+  );
+
   if (compact) {
     return (
       <form
@@ -28,6 +41,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         onSubmit={handleSubmit}
         className="space-y-4"
       >
+        {trustBadges}
         <div>
           <label htmlFor="full-name" className={labelClass}>
             Full Name <span className="text-red-500">*</span>
