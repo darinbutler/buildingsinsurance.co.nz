@@ -297,24 +297,24 @@ export default function CoveragePage() {
             </p>
           </div>
         </div>
-      </section>
 
-      {/* Trust Indicators Bar */}
-      <section className="border-b border-slate-200 bg-white px-6 py-6 sm:px-12 lg:px-20">
-        <div className="mx-auto flex flex-wrap items-center justify-center gap-6 text-sm font-semibold text-slate-700 sm:text-base">
-          <div className="flex items-center gap-2">
-            <Check className="h-5 w-5 text-emerald-600" />
-            ICNZ-Registered Insurers
-          </div>
-          <div className="h-1 w-1 rounded-full bg-slate-300" />
-          <div className="flex items-center gap-2">
-            <Check className="h-5 w-5 text-emerald-600" />
-            No Broker Fees
-          </div>
-          <div className="h-1 w-1 rounded-full bg-slate-300" />
-          <div className="flex items-center gap-2">
-            <Check className="h-5 w-5 text-emerald-600" />
-            Updated April 2026
+        {/* Trust Indicators - overlaid on hero */}
+        <div className="absolute bottom-0 left-0 right-0 z-10 bg-slate-900/60 backdrop-blur-sm px-6 py-4 sm:px-12 lg:px-20">
+          <div className="mx-auto flex flex-wrap items-center justify-center gap-6 text-sm font-semibold text-white sm:text-base">
+            <div className="flex items-center gap-2">
+              <Check className="h-5 w-5 text-emerald-400" />
+              ICNZ-Registered Insurers
+            </div>
+            <div className="h-1 w-1 rounded-full bg-white/40" />
+            <div className="flex items-center gap-2">
+              <Check className="h-5 w-5 text-emerald-400" />
+              No Broker Fees
+            </div>
+            <div className="h-1 w-1 rounded-full bg-white/40" />
+            <div className="flex items-center gap-2">
+              <Check className="h-5 w-5 text-emerald-400" />
+              Updated April 2026
+            </div>
           </div>
         </div>
       </section>
