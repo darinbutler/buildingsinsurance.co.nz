@@ -149,6 +149,19 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Disclaimer */}
+        <div className="border-t border-slate-800 pt-8 mb-8">
+          <div className="max-w-4xl mx-auto">
+            <h4 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">How This Site Works</h4>
+            <p className="text-xs text-slate-500 leading-relaxed mb-3">
+              BuildingsInsurance.co.nz is committed to helping New Zealanders find the right buildings insurance through honest, transparent comparison. We may receive compensation from insurers, brokers or underwriters when you enquire about or purchase a product through our site. However, this does not influence our reviews, ratings or recommendations. Our editorial team personally reviews all brokers, underwriters and insurers featured on this website to ensure we provide accurate, impartial information that saves you time and money.
+            </p>
+            <p className="text-xs text-slate-500 leading-relaxed">
+              The information on this website is general in nature and does not constitute financial or insurance advice. We recommend you read the relevant Product Disclosure Statement (PDS) and consider your own circumstances before purchasing any insurance product. All efforts are made to keep information current and accurate, but we do not guarantee completeness or suitability for your individual needs.
+            </p>
+          </div>
+        </div>
+
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-400 text-sm mb-4 md:mb-0">
