@@ -135,7 +135,7 @@ export default function HomePage() {
       />
 
       {/* Hero Section */}
-      <section className="relative h-[70vh] min-h-[500px] w-full overflow-hidden">
+      <section className="relative h-[60vh] min-h-[380px] w-full overflow-hidden sm:min-h-[450px] lg:min-h-[500px]">
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1600&h=900&fit=crop"
@@ -149,10 +149,10 @@ export default function HomePage() {
 
         <div className="relative z-10 flex h-full flex-col items-start justify-center px-6 sm:px-12 lg:px-20">
           <div className="max-w-2xl">
-            <h1 className="mb-6 text-5xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">
+            <h1 className="mb-6 text-3xl font-bold leading-tight text-white sm:text-5xl lg:text-7xl">
               Protect Your Home with the Right Buildings Insurance
             </h1>
-            <p className="mb-8 text-xl text-slate-200 sm:text-2xl">
+            <p className="mb-8 text-base text-slate-200 sm:text-xl">
               Compare quotes from New Zealand's leading insurers and find the perfect cover for your
               property.
             </p>
@@ -177,7 +177,7 @@ export default function HomePage() {
       {/* Property Types Section */}
       <section className="space-y-12 bg-white px-6 py-20 sm:px-12 lg:px-20">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="mb-4 text-4xl font-bold text-slate-900">
+          <h2 className="mb-4 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
             Buildings Insurance by Property Type
           </h2>
           <p className="text-lg text-slate-600">
@@ -214,7 +214,7 @@ export default function HomePage() {
       <section className="bg-slate-50 px-6 py-20 sm:px-12 lg:px-20">
         <div className="mx-auto max-w-6xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-4xl font-bold text-slate-900">
+            <h2 className="mb-4 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
               Why Buildings Insurance is Essential
             </h2>
             <p className="text-lg text-slate-600">
@@ -265,7 +265,7 @@ export default function HomePage() {
       <section className="bg-white px-6 py-20 sm:px-12 lg:px-20">
         <div className="mx-auto max-w-6xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-4xl font-bold text-slate-900">
+            <h2 className="mb-4 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
               Trusted by NZ Homeowners
             </h2>
             <p className="text-lg text-slate-600">
@@ -309,7 +309,7 @@ export default function HomePage() {
       >
         <div className="mx-auto max-w-4xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-4xl font-bold text-slate-900">
+            <h2 className="mb-4 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
               Frequently Asked Questions
             </h2>
             <p className="text-lg text-slate-600">
@@ -351,7 +351,7 @@ export default function HomePage() {
       <section id="quote-form" className="bg-white px-6 py-20 sm:px-12 lg:px-20 scroll-mt-20">
         <div className="mx-auto max-w-4xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-2 text-4xl font-bold text-slate-900">
+            <h2 className="mb-2 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
               Get Your Free Quote
             </h2>
             <p className="text-lg text-slate-600">

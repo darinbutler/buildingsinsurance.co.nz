@@ -114,7 +114,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   return (
     <main className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <section className="relative h-96 sm:h-[500px] bg-gradient-to-br from-slate-900 to-slate-800 overflow-hidden">
+      <section className="relative h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] bg-gradient-to-br from-slate-900 to-slate-800 overflow-hidden">
         <img
           src={post.image ? post.image.replace('w=800&h=450', 'w=1920&h=900') : 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1920&h=900&fit=crop'}
           alt={post.title}
@@ -144,7 +144,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </div>
 
             {/* Title */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-2xl sm:text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
               {post.title}
             </h1>
 
@@ -327,7 +327,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       {/* Quote Form Section */}
       <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 text-center mb-2">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 text-center mb-2">
             Ready to Protect Your Property?
           </h2>
           <p className="text-center text-slate-600 mb-12 text-lg">

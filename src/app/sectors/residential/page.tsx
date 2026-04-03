@@ -81,7 +81,7 @@ export default function ResidentialPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative h-96 bg-slate-900 overflow-hidden">
+      <section className="relative h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] bg-slate-900 overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&h=600&fit=crop"
           alt="New Zealand residential home"
@@ -91,10 +91,10 @@ export default function ResidentialPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 to-slate-900/40" />
         <div className="absolute inset-0 flex flex-col justify-center items-start px-4 md:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
             Residential Buildings Insurance
           </h1>
-          <p className="text-lg md:text-xl text-sky-100 max-w-2xl">
+          <p className="text-base sm:text-lg text-sky-100 max-w-2xl">
             Protect your home and family from structural damage with comprehensive NZ buildings insurance.
           </p>
         </div>
@@ -107,7 +107,7 @@ export default function ResidentialPage() {
           <div className="lg:col-span-2">
             {/* Why Homeowners Need Buildings Insurance */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Why Homeowners Need Buildings Insurance</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Why Homeowners Need Buildings Insurance</h2>
               <div className="space-y-6">
                 {whyCovered.map((item, idx) => (
                   <div key={idx} className="flex gap-4 pb-6 border-b border-slate-200 last:border-b-0">
@@ -127,7 +127,7 @@ export default function ResidentialPage() {
 
             {/* What's Covered */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">What's Covered in Residential Insurance</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">What's Covered in Residential Insurance</h2>
               <div className="bg-white rounded-lg border border-slate-200 overflow-hidden">
                 {coverageItems.map((item, idx) => (
                   <div
@@ -192,7 +192,7 @@ export default function ResidentialPage() {
 
             {/* Coverage Recommendations Table */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Coverage Recommendations by Home Value</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Coverage Recommendations by Home Value</h2>
               <div className="overflow-x-auto bg-white rounded-lg border border-slate-200">
                 <table className="w-full">
                   <thead className="bg-gradient-to-r from-emerald-50 to-sky-50 border-b border-slate-200">
@@ -220,7 +220,7 @@ export default function ResidentialPage() {
 
             {/* Key Considerations for NZ Homes */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Key Considerations for NZ Residential Homes</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Key Considerations for NZ Residential Homes</h2>
               <div className="space-y-6">
                 {nzConsiderations.map((item, idx) => (
                   <div key={idx} className="bg-white rounded-lg border border-slate-200 p-8">
@@ -236,7 +236,7 @@ export default function ResidentialPage() {
 
             {/* Claims Process */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">The Claims Process</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">The Claims Process</h2>
               <div className="space-y-4">
                 {[
                   { num: 1, title: 'Report the Damage', desc: 'Contact your insurer within 3 days of discovery. Document damage with photos/video.' },
@@ -262,7 +262,7 @@ export default function ResidentialPage() {
 
             {/* CTA Section */}
             <section className="bg-gradient-to-r from-emerald-600 to-sky-600 rounded-lg p-12 text-white mb-16">
-              <h2 className="text-3xl font-bold mb-4">Protect Your Home Today</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">Protect Your Home Today</h2>
               <p className="text-lg mb-8 text-emerald-50">
                 Get a personalised quote for your residential property in under 5 minutes. No obligations.
               </p>
@@ -277,7 +277,7 @@ export default function ResidentialPage() {
 
             {/* Related Resources */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Related Resources</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Related Resources</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Link
                   href="/sectors/landlords"

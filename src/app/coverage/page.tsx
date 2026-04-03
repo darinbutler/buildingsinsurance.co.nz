@@ -274,7 +274,7 @@ export default function CoveragePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[70vh] min-h-[500px] w-full overflow-hidden">
+      <section className="relative h-[60vh] min-h-[380px] w-full overflow-hidden sm:min-h-[450px] lg:min-h-[500px]">
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&h=900&fit=crop"
@@ -288,10 +288,10 @@ export default function CoveragePage() {
 
         <div className="relative z-10 flex h-full flex-col items-start justify-center px-6 sm:px-12 lg:px-20">
           <div className="max-w-2xl">
-            <h1 className="mb-6 text-5xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">
+            <h1 className="mb-6 text-3xl font-bold leading-tight text-white sm:text-5xl lg:text-7xl">
               Buildings Insurance Coverage Explained
             </h1>
-            <p className="text-xl text-slate-200 sm:text-2xl">
+            <p className="text-base text-slate-200 sm:text-xl">
               Understand your coverage options and what's protected under a buildings insurance policy
               in New Zealand.
             </p>
@@ -323,7 +323,7 @@ export default function CoveragePage() {
       <section className="bg-slate-50 px-6 py-20 sm:px-12 lg:px-20">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-4xl font-bold text-slate-900">
+            <h2 className="mb-4 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
               Choose Your Coverage Level
             </h2>
             <p className="text-lg text-slate-600">
@@ -381,7 +381,7 @@ export default function CoveragePage() {
       <section className="bg-white px-6 py-20 sm:px-12 lg:px-20">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-4xl font-bold text-slate-900">
+            <h2 className="mb-4 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
               What's Covered in Your Policy
             </h2>
             <p className="text-lg text-slate-600">
@@ -450,7 +450,7 @@ export default function CoveragePage() {
       <section className="bg-slate-50 px-6 py-20 sm:px-12 lg:px-20">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-4xl font-bold text-slate-900">
+            <h2 className="mb-4 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
               What's NOT Covered
             </h2>
             <p className="text-lg text-slate-600">
@@ -484,7 +484,7 @@ export default function CoveragePage() {
       <section className="bg-white px-6 py-20 sm:px-12 lg:px-20">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-4xl font-bold text-slate-900">
+            <h2 className="mb-4 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
               What Affects Your Premium
             </h2>
             <p className="text-lg text-slate-600">
@@ -537,7 +537,7 @@ export default function CoveragePage() {
       <section className="bg-slate-50 px-6 py-20 sm:px-12 lg:px-20">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-4xl font-bold text-slate-900">
+            <h2 className="mb-4 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
               Understanding EQC Cover
             </h2>
             <p className="text-lg text-slate-600">
@@ -589,7 +589,7 @@ export default function CoveragePage() {
       <section className="bg-white px-6 py-20 sm:px-12 lg:px-20">
         <div className="mx-auto max-w-4xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-2 text-4xl font-bold text-slate-900">
+            <h2 className="mb-2 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
               Ready to Get Covered?
             </h2>
             <p className="text-lg text-slate-600">

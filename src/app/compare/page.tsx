@@ -120,7 +120,7 @@ export default function ComparePage() {
   return (
     <main className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <section className="relative h-96 bg-slate-900 overflow-hidden">
+      <section className="relative h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] bg-slate-900 overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=600&fit=crop"
           alt="City buildings skyline"
@@ -130,7 +130,7 @@ export default function ComparePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-slate-900/40" />
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
             Compare NZ&apos;s Top Buildings Insurance Providers
           </h1>
           <div className="flex flex-wrap gap-6 justify-center text-sm md:text-base text-sky-100">
@@ -157,7 +157,7 @@ export default function ComparePage() {
         <section className="mb-20">
           <div className="mb-8">
             <span className="inline-block text-sm font-semibold text-emerald-600 uppercase tracking-wider mb-2">Provider Overview</span>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Side-by-Side Comparison</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900">Side-by-Side Comparison</h2>
             <p className="text-lg text-slate-600 mt-2">All 6 major NZ buildings insurance providers compared on the metrics that matter.</p>
           </div>
 
@@ -305,7 +305,7 @@ export default function ComparePage() {
         <section className="mb-20">
           <div className="mb-8">
             <span className="inline-block text-sm font-semibold text-emerald-600 uppercase tracking-wider mb-2">Feature Breakdown</span>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Coverage Features Matrix</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900">Coverage Features Matrix</h2>
             <p className="text-lg text-slate-600 mt-2">See exactly what each provider covers — so you can make an informed choice.</p>
           </div>
 
@@ -372,7 +372,7 @@ export default function ComparePage() {
         <section className="mb-20">
           <div className="mb-8">
             <span className="inline-block text-sm font-semibold text-emerald-600 uppercase tracking-wider mb-2">Pricing Guide</span>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Premium Ranges by Property Type</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900">Premium Ranges by Property Type</h2>
             <p className="text-lg text-slate-600 mt-2">Indicative annual premiums based on property type. Actual quotes may vary.</p>
           </div>
 
@@ -395,7 +395,7 @@ export default function ComparePage() {
         <section className="mb-20">
           <div className="mb-8">
             <span className="inline-block text-sm font-semibold text-emerald-600 uppercase tracking-wider mb-2">Expert Guidance</span>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">How to Choose the Right Provider</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900">How to Choose the Right Provider</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -466,7 +466,7 @@ export default function ComparePage() {
         {/* ───── SECTION 5: Final Quote Form ───── */}
         <section className="bg-gradient-to-br from-emerald-600 via-emerald-700 to-sky-700 rounded-2xl p-10 md:p-14 text-white mb-20 shadow-xl">
           <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold mb-3">Get Your Free Quote Today</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">Get Your Free Quote Today</h2>
             <p className="text-lg text-emerald-100 max-w-2xl mx-auto">
               Compare personalised quotes from all major NZ buildings insurance providers. Takes less than 2 minutes.
             </p>

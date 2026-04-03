@@ -106,7 +106,7 @@ export default function CommercialPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative h-96 bg-slate-900 overflow-hidden">
+      <section className="relative h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] bg-slate-900 overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=600&fit=crop"
           alt="Commercial city buildings"
@@ -116,10 +116,10 @@ export default function CommercialPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 to-slate-900/40" />
         <div className="absolute inset-0 flex flex-col justify-center items-start px-4 md:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
             Commercial Buildings Insurance
           </h1>
-          <p className="text-lg md:text-xl text-sky-100 max-w-2xl">
+          <p className="text-base sm:text-lg text-sky-100 max-w-2xl">
             Comprehensive protection for your business property. NOT covered by EQC.
           </p>
         </div>
@@ -148,7 +148,7 @@ export default function CommercialPage() {
 
             {/* Why Commercial Insurance Matters */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Why Commercial Buildings Insurance Matters</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Why Commercial Buildings Insurance Matters</h2>
               <div className="space-y-6">
                 {whyCommercial.map((item, idx) => (
                   <div key={idx} className="flex gap-4 pb-6 border-b border-slate-200 last:border-b-0">
@@ -164,7 +164,7 @@ export default function CommercialPage() {
 
             {/* What's Covered */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">What's Covered in Commercial Insurance</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">What's Covered in Commercial Insurance</h2>
               <div className="bg-white rounded-lg border border-slate-200 overflow-hidden">
                 {coverageItems.map((item, idx) => (
                   <div
@@ -194,7 +194,7 @@ export default function CommercialPage() {
 
             {/* Coverage by Building Type */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Coverage by Commercial Building Type</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Coverage by Commercial Building Type</h2>
               <div className="overflow-x-auto bg-white rounded-lg border border-slate-200">
                 <table className="w-full">
                   <thead className="bg-gradient-to-r from-emerald-50 to-sky-50 border-b border-slate-200">
@@ -221,7 +221,7 @@ export default function CommercialPage() {
 
             {/* Key Considerations */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Key Considerations for Commercial Buildings</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Key Considerations for Commercial Buildings</h2>
               <div className="space-y-4">
                 {keyConsiderations.map((item, idx) => (
                   <div key={idx} className="bg-white rounded-lg border border-slate-200 p-6 hover:shadow-md transition-shadow">
@@ -234,7 +234,7 @@ export default function CommercialPage() {
 
             {/* Claims Process */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Commercial Claims Process</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Commercial Claims Process</h2>
               <div className="bg-gradient-to-br from-emerald-50 to-sky-50 rounded-lg border border-emerald-200 p-8">
                 <div className="space-y-4">
                   {claimsInfo.map((item, idx) => (
@@ -259,7 +259,7 @@ export default function CommercialPage() {
 
             {/* Premium Estimates */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Premium Estimates (Annual)</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Premium Estimates (Annual)</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {[
                   { type: 'Small office (up to $500k)', range: '$1,500–$2,500' },
@@ -296,7 +296,7 @@ export default function CommercialPage() {
 
             {/* Related Resources */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Related Resources</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Related Resources</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Link
                   href="/sectors/landlords"

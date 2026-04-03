@@ -43,12 +43,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16 lg:h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="hidden sm:block">
-              <Logo variant="default" />
-            </div>
-            <div className="sm:hidden">
-              <Logo variant="compact" />
-            </div>
+            <Logo variant="default" />
           </div>
 
           {/* Desktop Navigation */}

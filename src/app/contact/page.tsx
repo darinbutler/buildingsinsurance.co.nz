@@ -66,7 +66,7 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <section className="relative h-80 sm:h-96 bg-slate-900 overflow-hidden">
+      <section className="relative h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] bg-slate-900 overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1920&h=900&fit=crop"
           alt="Co-working space for insurance consultations"
@@ -76,10 +76,10 @@ export default function ContactPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-slate-900/40" />
         <div className="relative h-full flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-white text-center mb-4">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-white text-center mb-4">
             Get Your Free Buildings Insurance Quote
           </h1>
-          <p className="text-lg sm:text-xl text-slate-200 text-center max-w-2xl">
+          <p className="text-base sm:text-lg text-slate-200 text-center max-w-2xl">
             Let our NZ experts help you find the perfect coverage at the best rates
           </p>
         </div>
@@ -159,7 +159,7 @@ export default function ContactPage() {
       {/* Contact Info Cards */}
       <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 text-center mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 text-center mb-12">
             Get in Touch
           </h2>
 
@@ -186,7 +186,7 @@ export default function ContactPage() {
       {/* FAQ Section */}
       <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 text-center mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 text-center mb-12">
             Frequently Asked Questions
           </h2>
 
@@ -210,7 +210,7 @@ export default function ContactPage() {
       {/* Trust Section */}
       <section className="bg-gradient-to-r from-emerald-50 to-sky-50 border-t border-slate-200 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
             Why Trust BuildingsInsurance.co.nz?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -242,7 +242,7 @@ export default function ContactPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-emerald-600 to-emerald-700 py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">
             Don't Wait - Get Protected Today
           </h2>
           <p className="text-emerald-50 mb-8 text-lg">

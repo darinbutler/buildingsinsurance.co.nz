@@ -161,7 +161,7 @@ export default function LandlordsPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative h-96 bg-slate-900 overflow-hidden">
+      <section className="relative h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] bg-slate-900 overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=600&fit=crop"
           alt="Rental property apartment building"
@@ -171,10 +171,10 @@ export default function LandlordsPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 to-slate-900/40" />
         <div className="absolute inset-0 flex flex-col justify-center items-start px-4 md:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
             Landlord Buildings Insurance
           </h1>
-          <p className="text-lg md:text-xl text-sky-100 max-w-2xl">
+          <p className="text-base sm:text-lg text-sky-100 max-w-2xl">
             Specialised insurance for rental properties. Protect against tenant damage, loss of rent, and more.
           </p>
         </div>
@@ -187,7 +187,7 @@ export default function LandlordsPage() {
           <div className="lg:col-span-2">
             {/* Why Landlords Need Specific Cover */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Why Landlords Need Specific Insurance</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Why Landlords Need Specific Insurance</h2>
               <p className="text-slate-700 mb-8">
                 Landlord buildings insurance differs from standard homeowner insurance. It covers unique risks landlords face, including tenant damage, loss of rent, and landlord liability.
               </p>
@@ -206,7 +206,7 @@ export default function LandlordsPage() {
 
             {/* Landlord vs Residential Comparison */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Landlord vs. Residential Insurance</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Landlord vs. Residential Insurance</h2>
               <div className="overflow-x-auto bg-white rounded-lg border border-slate-200">
                 <table className="w-full">
                   <thead className="bg-gradient-to-r from-emerald-50 to-sky-50 border-b border-slate-200">
@@ -243,7 +243,7 @@ export default function LandlordsPage() {
 
             {/* Coverage by Rental Type */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Coverage by Rental Type</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Coverage by Rental Type</h2>
               <div className="space-y-4">
                 {rentalTypes.map((item, idx) => (
                   <div key={idx} className="bg-white rounded-lg border border-slate-200 p-6">
@@ -265,7 +265,7 @@ export default function LandlordsPage() {
 
             {/* Landlord vs Tenant Responsibilities */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Landlord vs. Tenant Responsibilities</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Landlord vs. Tenant Responsibilities</h2>
               <div className="space-y-4">
                 {tenantResponsibilities[0].items.map((item, idx) => (
                   <div
@@ -299,7 +299,7 @@ export default function LandlordsPage() {
 
             {/* Meth Contamination */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Methamphetamine Contamination Cover</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Methamphetamine Contamination Cover</h2>
               <p className="text-slate-700 mb-8">
                 Meth contamination is a serious issue affecting many NZ rental properties. Optional cover is available for testing, remediation, and lost rent.
               </p>
@@ -324,7 +324,7 @@ export default function LandlordsPage() {
 
             {/* Tax Deductibility */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Tax Deductibility of Premiums</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Tax Deductibility of Premiums</h2>
               <p className="text-slate-700 mb-6">
                 Most landlord insurance premiums are tax-deductible as a rental property expense. Keep records of all policies and premium payments for your accountant.
               </p>
@@ -362,7 +362,7 @@ export default function LandlordsPage() {
 
             {/* Key Considerations */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Key Landlord Considerations</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Key Landlord Considerations</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -415,7 +415,7 @@ export default function LandlordsPage() {
 
             {/* Related Resources */}
             <section className="mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Related Resources</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">Related Resources</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Link
                   href="/sectors/residential"

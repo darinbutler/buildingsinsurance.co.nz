@@ -27,7 +27,7 @@ export default function BlogPage() {
   return (
     <main className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <section className="relative h-96 bg-slate-900 overflow-hidden">
+      <section className="relative h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] bg-slate-900 overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1434082033009-b81d41d32e1c?w=1920&h=900&fit=crop"
           alt="New Zealand suburban homes and neighbourhood"
@@ -37,10 +37,10 @@ export default function BlogPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-slate-900/40" />
         <div className="relative h-full flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white text-center mb-4">
+          <h1 className="text-2xl sm:text-4xl lg:text-6xl font-bold text-white text-center mb-4">
             Buildings Insurance Blog
           </h1>
-          <p className="text-lg sm:text-xl text-slate-200 text-center max-w-2xl">
+          <p className="text-base sm:text-lg text-slate-200 text-center max-w-2xl">
             Expert guides, insights, and everything you need to know about protecting your New Zealand property
           </p>
         </div>
@@ -137,7 +137,7 @@ export default function BlogPage() {
       {/* Newsletter CTA */}
       <section className="bg-gradient-to-r from-emerald-600 to-emerald-700 py-12 sm:py-16">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">
             Stay Updated with Insurance Insights
           </h2>
           <p className="text-emerald-50 mb-8">

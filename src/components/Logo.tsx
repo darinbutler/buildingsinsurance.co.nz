@@ -60,14 +60,14 @@ export default function Logo({ variant = 'default', href = '/' }: LogoProps) {
   }
 
   return (
-    <Link href={href} className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+    <Link href={href} className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity">
       {houseIcon}
       <div className="flex flex-col">
-        <div className="flex items-baseline gap-1">
-          <span className={`font-bold text-lg tracking-tight ${isWhite ? 'text-white' : 'text-slate-900'}`}>
+        <div className="flex items-baseline gap-0.5 sm:gap-1">
+          <span className={`font-bold text-xs sm:text-lg tracking-tight ${isWhite ? 'text-white' : 'text-slate-900'}`}>
             BuildingsInsurance
           </span>
-          <span className={`font-bold text-lg ${isWhite ? 'text-white' : 'text-emerald-600'}`}>
+          <span className={`font-bold text-xs sm:text-lg ${isWhite ? 'text-white' : 'text-emerald-600'}`}>
             .co.nz
           </span>
         </div>
