@@ -169,8 +169,17 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
             </svg>
           </div>
         </div>
-        <h3 className="text-2xl font-bold text-white mb-1">Free, No-Obligation Quote</h3>
-        <p className="text-emerald-100 text-sm">Takes less than 2 minutes</p>
+        <h3 className="text-2xl font-bold text-white mb-2">Free, No-Obligation Quote</h3>
+        <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-white">
+          <span className="flex items-center gap-1.5">
+            <svg className="w-4 h-4 text-emerald-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+            ICNZ-Registered
+          </span>
+          <span className="flex items-center gap-1.5">
+            <svg className="w-4 h-4 text-emerald-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+            No Broker Fees
+          </span>
+        </div>
       </div>
 
       {/* Form Body */}
