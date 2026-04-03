@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const API_KEY = "AIzaSyAuIRTh3_QGDuxnzpgg-rmhPseahc_ai2Q";
+const API_KEY = process.env.GOOGLE_GEMINI_API_KEY || "";
 
 const PROMPTS = {
   "hero.png": "Cinematic wide-angle photograph of a beautiful modern New Zealand suburban home with a dramatic sky at golden hour. Warm lighting, professional real estate photography style. Emerald green garden, well-maintained property.",

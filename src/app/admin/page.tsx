@@ -14,7 +14,15 @@ interface DataCounts {
   products: number;
 }
 
-const ADMIN_PASSWORD = 'buildings2026';
+// Password verified via SHA-256 hash — never stored in plaintext
+const ADMIN_HASH = '345d673e729289b8e4cc71ab7c72b56a5be70e0908647e8bef56780847e80990';
+
+async function hashPassword(pw: string): Promise<string> {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(pw);
+  const buffer = await crypto.subtle.digest('SHA-256', data);
+  return Array.from(new Uint8Array(buffer)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
 
 export default function AdminPage() {
   const [authenticated, setAuthenticated] = useState(false);
@@ -67,9 +75,10 @@ export default function AdminPage() {
     }
   };
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === ADMIN_PASSWORD) {
+    const hash = await hashPassword(password);
+    if (hash === ADMIN_HASH) {
       setAuthenticated(true);
       setPassword('');
       setMessage({ type: 'success', text: 'Successfully authenticated' });
