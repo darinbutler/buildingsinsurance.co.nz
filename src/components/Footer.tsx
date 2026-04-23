@@ -11,7 +11,7 @@ export default function Footer() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      label: 'ICNZ Registered',
+      label: 'Fair Practice Standard',
     },
     {
       icon: (
@@ -76,6 +76,7 @@ export default function Footer() {
                 { label: 'Compare', href: '/compare' },
                 { label: 'Blog', href: '/blog' },
                 { label: 'About', href: '/about' },
+                { label: 'Making a Claim', href: '/claims' },
                 { label: 'Contact', href: '/contact' },
               ].map((link) => (
                 <li key={link.href}>

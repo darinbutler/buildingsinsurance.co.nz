@@ -303,7 +303,7 @@ export default function CoveragePage() {
           <div className="mx-auto flex flex-wrap items-center justify-center gap-6 text-sm font-semibold text-white sm:text-base">
             <div className="flex items-center gap-2">
               <Check className="h-5 w-5 text-emerald-400" />
-              ICNZ-Registered Insurers
+              Licensed Insurers
             </div>
             <div className="h-1 w-1 rounded-full bg-white/40" />
             <div className="flex items-center gap-2">
