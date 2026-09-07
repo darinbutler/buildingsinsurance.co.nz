@@ -113,7 +113,7 @@ export default function HomePage() {
       icon: Shield,
       color: 'bg-amber-100 text-amber-700',
       title: 'Brokers We Trust',
-      body: 'Every adviser in our network holds a Financial Advice Provider licence and operates under the Fair Insurance Code.',
+      body: 'Every adviser in our network holds a Financial Advice Provider licence and is registered on the Financial Service Providers Register.',
     },
   ]
 

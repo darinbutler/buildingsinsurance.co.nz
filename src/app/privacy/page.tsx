@@ -324,7 +324,7 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc list-inside text-slate-700 mb-4 space-y-2">
               <li>Privacy Act 2020 (New Zealand)</li>
-              <li>Fair Insurance Code</li>
+              <li>Claims Standards</li>
               <li>Consumer Guarantees Act 1993</li>
             </ul>
           </section>

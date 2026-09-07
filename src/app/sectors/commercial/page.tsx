@@ -320,12 +320,12 @@ export default function CommercialPage() {
                   <p className="text-sm text-slate-600">Compare all major NZ commercial buildings insurance providers side-by-side.</p>
                 </Link>
                 <a
-                  href="https://www.icnz.org.nz"
+                  href="https://www.fma.govt.nz/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-6 bg-white rounded-lg border border-slate-200 hover:border-emerald-400 hover:shadow-md transition-all"
                 >
-                  <h3 className="font-semibold text-slate-900 mb-2">Insurance Council NZ</h3>
+                  <h3 className="font-semibold text-slate-900 mb-2">Financial Markets Authority</h3>
                   <p className="text-sm text-slate-600">Industry body for insurance companies. Check provider credentials.</p>
                 </a>
               </div>

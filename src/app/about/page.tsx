@@ -160,10 +160,10 @@ const testimonials = [
 
 const partnerships = [
   {
-    name: 'Insurance Council of New Zealand',
+    name: 'Financial Markets Authority',
     abbr: 'FSPR',
     description: 'Industry-leading standards and compliance',
-    href: 'https://www.icnz.org.nz',
+    href: 'https://www.fma.govt.nz/',
   },
   {
     name: 'NZ Broker Network',

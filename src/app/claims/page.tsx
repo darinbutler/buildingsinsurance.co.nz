@@ -111,7 +111,7 @@ export default function ClaimsPage() {
               <ShieldCheck className="w-8 h-8 text-sky-600 mb-4" />
               <h3 className="text-lg font-bold text-slate-900 mb-3">Complaint About Your Insurer</h3>
               <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                Contact your insurer directly in the first instance. Most NZ insurers are bound by the Fair Insurance Code, which sets standards for transparency, fairness, and prompt claims handling.
+                Contact your insurer directly in the first instance. Most New Zealand insurers subscribe to industry standards for transparency, fairness and prompt claims handling.
               </p>
               <div className="space-y-2 text-sm text-slate-700 mb-4">
                 <div className="flex gap-2 items-center"><Clock className="w-4 h-4 text-sky-500 flex-shrink-0" /><span>Acknowledgement within <strong>5 business days</strong></span></div>
